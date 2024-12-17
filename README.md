@@ -82,3 +82,7 @@ curl -X POST "http://localhost:8000/api/Apartment_hunter" -H "Content-Type: appl
   "City_name": "Los Angeles"
 }'
 ```
+
+**Todo**
+- Save api endpoints after server restarts
+- Add better parsing on inputs to allow for more sophisticated variables   
