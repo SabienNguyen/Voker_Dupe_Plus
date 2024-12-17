@@ -1,4 +1,4 @@
-# Voker Dupe Plus API Generator
+# Voker Dupe API Generator
 
 ## Prerequisites
 
@@ -49,7 +49,7 @@ uvicorn voker_dupe:app --reload
   }
 }
 ```
-4. Make the Endpoint
+4. **Make the Endpoint**
 ```bash
 curl -X POST "http://localhost:8000/generate_api/" -H "Content-Type: application/json" -d '{
   "api_name": "Apartment_hunter",
@@ -74,5 +74,11 @@ curl -X POST "http://localhost:8000/generate_api/" -H "Content-Type: application
       }
     ]
   }
+}'
+```
+5. **To make a POST request to this endpoint, provide the necessary input**
+```bash
+curl -X POST "http://localhost:8000/api/Apartment_hunter" -H "Content-Type: application/json" -d '{
+  "City_name": "Los Angeles"
 }'
 ```
