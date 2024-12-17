@@ -1,5 +1,6 @@
 # Voker Dupe API Generator
-
+## Functionality
+Create an API based off of custom use cases easily in the terminal. Takes instructions, input variables, output variables to customize a response using LLMs.
 ## Prerequisites
 
 - **Python**: Python 3.12.6 or higher
